@@ -1,0 +1,36 @@
+body {
+	background-image: url('../img/horoscopeBg.jpg');
+	object-fit: cover;
+	background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+
+#header {
+	text-align: center;
+}
+
+#app h1 {
+	font-family: 'Kavivanar', cursive;
+}
+
+ul li {
+	display: inline-block;
+	margin: 10px;
+}
+
+#content {
+	color: #fff;
+}
+
+img {
+	padding-top: 0;
+	height: 250px;
+	width: 250px;
+}
